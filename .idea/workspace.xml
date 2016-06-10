@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Kata@FizzBuzz__Kata.coverage" NAME="FizzBuzz: Kata Coverage Results" MODIFIED="1465577275259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
+    <SUITE FILE_PATH="coverage/Kata@FizzBuzz__Kata.coverage" NAME="FizzBuzz: Kata Coverage Results" MODIFIED="1465577450640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz_returns_input_number__Kata.coverage" NAME="FIzzBuzz returns input number: Kata Coverage Results" MODIFIED="1465577022018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz__Kata.coverage" NAME="FIzzBuzz: Kata Coverage Results" MODIFIED="1465576977408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
   </component>
@@ -30,8 +30,8 @@
       <file leaf-file-name="fizz_buzz_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/fizz_buzz_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="fizz_buzz.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/fizz_buzz.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="119">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -361,7 +361,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465576900169</updated>
-      <workItem from="1465576901326" duration="379000" />
+      <workItem from="1465576901326" duration="555000" />
     </task>
     <servers />
   </component>
@@ -375,9 +375,15 @@
     <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 47m 55s.xml">
       <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 50m 18s.xml">
+      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 50m 50s.xml">
+      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379000" />
+    <option name="totallyTimeSpent" value="555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -412,16 +418,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/fizz_buzz.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/fizz_buzz_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
