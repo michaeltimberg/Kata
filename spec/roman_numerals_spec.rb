@@ -46,4 +46,20 @@ describe RomanNumerals do
   it 'returns "CXXIII" when given 123' do
     expect(RomanNumerals.arabic_to_roman(123)).to eq ('CXXIII')
   end
+
+  it 'returns "CD" when given 400' do
+    expect(RomanNumerals.arabic_to_roman(400)).to eq ('CD')
+  end
+
+  it 'returns "DLV" when given 555' do
+    expect(RomanNumerals.arabic_to_roman(555)).to eq ('DLV')
+  end
+
+  it 'returns "CM" when given 900' do
+    expect(RomanNumerals.arabic_to_roman(900)).to eq ('CM')
+  end
+
+  it 'returns "MMXVI" when given the current year' do
+    expect(RomanNumerals.arabic_to_roman(2016)).to eq ('MMXVI')
+  end
 end
