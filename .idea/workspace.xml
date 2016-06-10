@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Kata@FizzBuzz__Kata.coverage" NAME="FizzBuzz: Kata Coverage Results" MODIFIED="1465577775060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
+    <SUITE FILE_PATH="coverage/Kata@FizzBuzz__Kata.coverage" NAME="FizzBuzz: Kata Coverage Results" MODIFIED="1465577894816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz_returns_input_number__Kata.coverage" NAME="FIzzBuzz returns input number: Kata Coverage Results" MODIFIED="1465577022018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz__Kata.coverage" NAME="FIzzBuzz: Kata Coverage Results" MODIFIED="1465576977408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
   </component>
@@ -30,8 +30,8 @@
       <file leaf-file-name="fizz_buzz_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/fizz_buzz_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -361,14 +361,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465576900169</updated>
-      <workItem from="1465576901326" duration="896000" />
+      <workItem from="1465576901326" duration="1000000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FIzzBuzz__Kata - 2016.06.10 at 12h 42m 57s.xml">
-      <configuration name="FIzzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="FIzzBuzz_returns_input_number__Kata - 2016.06.10 at 12h 43m 42s.xml">
       <configuration name="FIzzBuzz returns input number: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -396,9 +393,12 @@
     <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 56m 15s.xml">
       <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 58m 15s.xml">
+      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="896000" />
+    <option name="totallyTimeSpent" value="1000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -441,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/fizz_buzz_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
