@@ -14,4 +14,8 @@ describe RomanNumerals do
   it 'returns "IV" when given 4' do
     expect(RomanNumerals.arabic_to_roman(4)).to eq ('IV')
   end
+
+  it 'returns "V" when given 5' do
+    expect(RomanNumerals.arabic_to_roman(5)).to eq ('V')
+  end
 end

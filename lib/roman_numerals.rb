@@ -1,17 +1,13 @@
 
 class RomanNumerals
   def self.arabic_to_roman (arabic)
-    roman_numerals = ['I', 'IV']
+    roman_numerals = {'V' => 5, 'IV' => 4, 'I' => 1}
 
     roman = ''
 
-    if arabic <= 3
-      arabic.times do
-        roman << roman_numerals[0]
-      end
-    else
-      roman << roman_numerals[1]
-    end
+    roman_numerals.each {|key, value|
+      (arabic / value).times { roman << key; arabic -= value }
+    }
 
     roman
   end
