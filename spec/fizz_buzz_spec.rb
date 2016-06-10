@@ -1,6 +1,6 @@
 
 require 'rspec'
-require './lib/fizz_buzz.rb'
+require './lib/fizz_buzz'
 
 describe FizzBuzz do
   it 'returns input number' do

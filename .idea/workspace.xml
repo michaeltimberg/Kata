@@ -16,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Kata@FizzBuzz__Kata.coverage" NAME="FizzBuzz: Kata Coverage Results" MODIFIED="1465577894816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz_returns_input_number__Kata.coverage" NAME="FIzzBuzz returns input number: Kata Coverage Results" MODIFIED="1465577022018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
+    <SUITE FILE_PATH="coverage/Kata@RomanNumerals__Kata.coverage" NAME="RomanNumerals: Kata Coverage Results" MODIFIED="1465578467687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz__Kata.coverage" NAME="FIzzBuzz: Kata Coverage Results" MODIFIED="1465576977408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -27,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fizz_buzz_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/fizz_buzz_spec.rb">
+      <file leaf-file-name="roman_numerals_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/roman_numerals_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fizz_buzz.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/fizz_buzz.rb">
+      <file leaf-file-name="roman_numerals.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/roman_numerals.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -60,6 +61,8 @@
       <list>
         <option value="$PROJECT_DIR$/lib/fizz_buzz.rb" />
         <option value="$PROJECT_DIR$/spec/fizz_buzz_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/roman_numerals_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/roman_numerals.rb" />
       </list>
     </option>
   </component>
@@ -157,7 +160,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="RSpec.FizzBuzz: Kata">
+  <component name="RunManager" selected="RSpec.RomanNumerals: Kata">
     <configuration default="false" name="FIzzBuzz: Kata" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Kata" />
@@ -235,6 +238,35 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="FizzBuzz" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RomanNumerals: Kata" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="Kata" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numerals_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumerals" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -338,16 +370,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="RSpec.FIzzBuzz: Kata" />
       <item index="1" class="java.lang.String" itemvalue="RSpec.FIzzBuzz returns input number: Kata" />
       <item index="2" class="java.lang.String" itemvalue="RSpec.FizzBuzz: Kata" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumerals: Kata" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.FizzBuzz: Kata" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.FIzzBuzz returns input number: Kata" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.FIzzBuzz: Kata" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.RomanNumerals: Kata" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.FizzBuzz: Kata" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.FIzzBuzz returns input number: Kata" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.FIzzBuzz: Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -361,26 +395,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465576900169</updated>
-      <workItem from="1465576901326" duration="1000000" />
+      <workItem from="1465576901326" duration="1569000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FIzzBuzz_returns_input_number__Kata - 2016.06.10 at 12h 43m 42s.xml">
-      <configuration name="FIzzBuzz returns input number: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 47m 55s.xml">
-      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 50m 18s.xml">
-      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 50m 50s.xml">
-      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 52m 13s.xml">
-      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 53m 00s.xml">
       <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -396,9 +415,24 @@
     <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 58m 15s.xml">
       <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 03m 58s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 05m 31s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 06m 16s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 07m 36s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 07m 47s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1000000" />
+    <option name="totallyTimeSpent" value="1569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -431,6 +465,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spec/fizz_buzz_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/fizz_buzz.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -439,10 +481,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/fizz_buzz_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/roman_numerals.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/roman_numerals_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
