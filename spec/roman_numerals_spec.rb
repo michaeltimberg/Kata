@@ -66,4 +66,8 @@ describe RomanNumerals do
   it 'returns 1 when given "I"' do
     expect(RomanNumerals.roman_to_arabic('I')).to eq (1)
   end
+
+  it 'returns 2 when given "II"' do
+    expect(RomanNumerals.roman_to_arabic('II')).to eq (2)
+  end
 end

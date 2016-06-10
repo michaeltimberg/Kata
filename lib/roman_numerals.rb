@@ -13,6 +13,6 @@ class RomanNumerals
   end
 
   def self.roman_to_arabic(roman)
-    1
+    roman.length
   end
 end
