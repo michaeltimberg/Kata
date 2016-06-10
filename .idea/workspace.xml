@@ -16,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Kata@FizzBuzz__Kata.coverage" NAME="FizzBuzz: Kata Coverage Results" MODIFIED="1465577894816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz_returns_input_number__Kata.coverage" NAME="FIzzBuzz returns input number: Kata Coverage Results" MODIFIED="1465577022018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
-    <SUITE FILE_PATH="coverage/Kata@RomanNumerals__Kata.coverage" NAME="RomanNumerals: Kata Coverage Results" MODIFIED="1465578467687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
+    <SUITE FILE_PATH="coverage/Kata@RomanNumerals__Kata.coverage" NAME="RomanNumerals: Kata Coverage Results" MODIFIED="1465578617079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz__Kata.coverage" NAME="FIzzBuzz: Kata Coverage Results" MODIFIED="1465576977408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -31,8 +31,8 @@
       <file leaf-file-name="roman_numerals_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/roman_numerals_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="204">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="roman_numerals.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/roman_numerals.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -395,20 +395,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465576900169</updated>
-      <workItem from="1465576901326" duration="1569000" />
+      <workItem from="1465576901326" duration="1719000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 53m 00s.xml">
-      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 54m 50s.xml">
-      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 55m 38s.xml">
-      <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="FizzBuzz__Kata - 2016.06.10 at 12h 56m 15s.xml">
       <configuration name="FizzBuzz: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -430,9 +421,18 @@
     <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 07m 47s.xml">
       <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 09m 16s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 10m 02s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 10m 17s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1569000" />
+    <option name="totallyTimeSpent" value="1719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -483,16 +483,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/roman_numerals.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/roman_numerals_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
