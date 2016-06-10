@@ -14,4 +14,8 @@ describe FizzBuzz do
   it 'returns "Buzz" if number is a multiple of five' do
     expect(FizzBuzz.fizzBuzz(5)).to eq ('Buzz')
   end
+
+  it 'returns "FizzBuzz" if number is a multiple of three and five' do
+    expect(FizzBuzz.fizzBuzz(15)).to eq ('FizzBuzz')
+  end
 end
