@@ -78,4 +78,32 @@ describe RomanNumerals do
   it 'returns 5 when given "V"' do
     expect(RomanNumerals.roman_to_arabic('V')).to eq (5)
   end
+
+  it 'returns 7 when given "VII"' do
+    expect(RomanNumerals.roman_to_arabic('VII')).to eq (7)
+  end
+
+  it 'returns 14 when given "XIV"' do
+    expect(RomanNumerals.roman_to_arabic('XIV')).to eq (14)
+  end
+
+  it 'returns 99 when given "XCIX"' do
+    expect(RomanNumerals.roman_to_arabic('XCIX')).to eq (99)
+  end
+
+  it 'returns 144 when given "CXLIV"' do
+    expect(RomanNumerals.roman_to_arabic('CXLIV')).to eq (144)
+  end
+
+  it 'returns 636 when given "DCXXXVI"' do
+    expect(RomanNumerals.roman_to_arabic('DCXXXVI')).to eq (636)
+  end
+
+  it 'returns 999 when given "CMXCIX"' do
+    expect(RomanNumerals.roman_to_arabic('CMXCIX')).to eq (999)
+  end
+
+  it 'returns 3999 when given the largest possible Roman Numeral' do
+    expect(RomanNumerals.roman_to_arabic('MMMCMXCIX')).to eq (3999)
+  end
 end

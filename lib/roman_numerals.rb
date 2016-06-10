@@ -21,12 +21,14 @@ class RomanNumerals
     arabic_array = []
 
     for letter in 0...roman.length
-      arabic_array << Roman_Numerals[roman.reverse[letter]]
+      value = Roman_Numerals[roman.reverse[letter]]
 
-      if roman.length > 1 && arabic_array[letter - 1] > arabic_array[letter]
-        arabic -= Roman_Numerals[roman.reverse[letter]]
+      arabic_array << value
+
+      if arabic_array[letter - 1] > arabic_array[letter]
+        arabic -= value
       else
-        arabic += Roman_Numerals[roman.reverse[letter]]
+        arabic += value
       end
     end
 
