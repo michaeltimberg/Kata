@@ -70,4 +70,8 @@ describe RomanNumerals do
   it 'returns 2 when given "II"' do
     expect(RomanNumerals.roman_to_arabic('II')).to eq (2)
   end
+
+  it 'returns 4 when given "IV"' do
+    expect(RomanNumerals.roman_to_arabic('IV')).to eq (4)
+  end
 end
