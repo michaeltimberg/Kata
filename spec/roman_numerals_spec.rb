@@ -62,4 +62,8 @@ describe RomanNumerals do
   it 'returns "MMXVI" when given the current year' do
     expect(RomanNumerals.arabic_to_roman(2016)).to eq ('MMXVI')
   end
+
+  it 'returns 1 when given "I"' do
+    expect(RomanNumerals.roman_to_arabic('I')).to eq (1)
+  end
 end

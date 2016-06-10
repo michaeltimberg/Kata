@@ -11,4 +11,8 @@ class RomanNumerals
 
     roman
   end
+
+  def self.roman_to_arabic(roman)
+    1
+  end
 end
