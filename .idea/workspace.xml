@@ -16,7 +16,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Kata@FizzBuzz__Kata.coverage" NAME="FizzBuzz: Kata Coverage Results" MODIFIED="1465577894816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz_returns_input_number__Kata.coverage" NAME="FIzzBuzz returns input number: Kata Coverage Results" MODIFIED="1465577022018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
-    <SUITE FILE_PATH="coverage/Kata@RomanNumerals__Kata.coverage" NAME="RomanNumerals: Kata Coverage Results" MODIFIED="1465580177080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
+    <SUITE FILE_PATH="coverage/Kata@RomanNumerals__Kata.coverage" NAME="RomanNumerals: Kata Coverage Results" MODIFIED="1465580771599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
+    <SUITE FILE_PATH="coverage/Kata@RomanNumerals_returns_5_when_given__V___Kata.coverage" NAME="RomanNumerals returns 5 when given &quot;V&quot;: Kata Coverage Results" MODIFIED="1465580211442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@RomanNumerals_returns_1_when_given__I___Kata.coverage" NAME="RomanNumerals returns 1 when given &quot;I&quot;: Kata Coverage Results" MODIFIED="1465579966251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@FIzzBuzz__Kata.coverage" NAME="FIzzBuzz: Kata Coverage Results" MODIFIED="1465576977408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
     <SUITE FILE_PATH="coverage/Kata@RomanNumerals_returns__CM__when_given_900__Kata.coverage" NAME="RomanNumerals returns &quot;CM&quot; when given 900: Kata Coverage Results" MODIFIED="1465579721427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Kata" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="roman_numerals_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/roman_numerals_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="580">
+              <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -43,8 +44,8 @@
       <file leaf-file-name="roman_numerals.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/roman_numerals.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -164,35 +165,6 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="RSpec.RomanNumerals: Kata">
-    <configuration default="false" name="FIzzBuzz returns input number: Kata" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="Kata" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/fizz_buzz_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="FIzzBuzz returns input number" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="FizzBuzz: Kata" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Kata" />
@@ -309,6 +281,35 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="false" name="RomanNumerals returns 5 when given &quot;V&quot;: Kata" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="Kata" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numerals_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumerals returns 5 when given &quot;V&quot;" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -403,19 +404,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.FIzzBuzz returns input number: Kata" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.FizzBuzz: Kata" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.RomanNumerals: Kata" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns &quot;CM&quot; when given 900: Kata" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns 1 when given &quot;I&quot;: Kata" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.FizzBuzz: Kata" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.RomanNumerals: Kata" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns &quot;CM&quot; when given 900: Kata" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns 1 when given &quot;I&quot;: Kata" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns 5 when given &quot;V&quot;: Kata" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.RomanNumerals: Kata" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns 1 when given &quot;I&quot;: Kata" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns &quot;CM&quot; when given 900: Kata" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.FizzBuzz: Kata" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.FIzzBuzz returns input number: Kata" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns 5 when given &quot;V&quot;: Kata" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns 1 when given &quot;I&quot;: Kata" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumerals returns &quot;CM&quot; when given 900: Kata" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.FizzBuzz: Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -429,23 +430,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1465576900169</updated>
-      <workItem from="1465576901326" duration="3278000" />
+      <workItem from="1465576901326" duration="3893000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 29m 35s.xml">
-      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 29m 52s.xml">
-      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 30m 07s.xml">
-      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 32m 00s.xml">
-      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 32m 28s.xml">
       <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -461,12 +450,24 @@
     <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 36m 17s.xml">
       <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 42m 41s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 45m 22s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RomanNumerals__Kata - 2016.06.10 at 13h 46m 11s.xml">
+      <configuration name="RomanNumerals: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
     <history-entry file="RomanNumerals_returns_1_when_given__I___Kata - 2016.06.10 at 13h 32m 46s.xml">
       <configuration name="RomanNumerals returns 1 when given &quot;I&quot;: Kata" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="RomanNumerals_returns_5_when_given__V___Kata - 2016.06.10 at 13h 36m 51s.xml">
+      <configuration name="RomanNumerals returns 5 when given &quot;V&quot;: Kata" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3278000" />
+    <option name="totallyTimeSpent" value="3893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -477,7 +478,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32421052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32421052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -517,16 +518,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/roman_numerals.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/roman_numerals_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="580">
+          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
           <folding />
         </state>
       </provider>

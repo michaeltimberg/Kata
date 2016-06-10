@@ -1,22 +1,35 @@
 
 class RomanNumerals
-  def self.arabic_to_roman (arabic)
-    roman_numerals = { 'M' => 1000, 'CM' => 900, 'D' => 500, 'CD' => 400, 'C' => 100, 'XC' => 90, 'L' => 50, 'XL' => 40, 'X' => 10, 'IX' => 9, 'V' => 5, 'IV' => 4, 'I' => 1}
+  Roman_Numerals = { 'M' => 1000, 'D' => 500, 'C' => 100, 'L' => 50, 'X' => 10, 'V' => 5, 'I' => 1}
 
+  def self.arabic_to_roman (arabic)
     roman = ''
 
-    roman_numerals.each {|key, value|
+    plus_combinations = Roman_Numerals.merge({ 'CM' => 900, 'CD' => 400, 'XC' => 90, 'XL' => 40, 'IX' => 9, 'IV' => 4 }).sort_by {|key, value|
+      value
+    }
+
+    plus_combinations.reverse.each {|key, value|
       (arabic / value).times { roman << key; arabic -= value }
     }
 
     roman
   end
 
-  def self.roman_to_arabic(roman)
-    if roman == 'IV'
-      4
-    else
-      roman.length
+  def self.roman_to_arabic (roman)
+    arabic = 0
+    arabic_array = []
+
+    for letter in 0...roman.length
+      arabic_array << Roman_Numerals[roman.reverse[letter]]
+
+      if roman.length > 1 && arabic_array[letter - 1] > arabic_array[letter]
+        arabic -= Roman_Numerals[roman.reverse[letter]]
+      else
+        arabic += Roman_Numerals[roman.reverse[letter]]
+      end
     end
+
+    arabic
   end
 end
